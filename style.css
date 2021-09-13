@@ -1,0 +1,129 @@
+body{
+    margin: 0;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+body > header{
+    background-color: dodgerblue;
+    color: white;
+    height: 50px;
+    padding: 25px;
+}
+
+body > header> nav > ul > li > a{
+    color: white;
+    text-decoration: none;
+}
+
+body> header > nav > ul{
+    margin: 0;
+    list-style: none;
+    text-align: right;
+    padding-top: 25px;
+}
+
+body> header > nav > ul > li {
+    display: inline;
+    padding-right: 15px;
+}
+
+body > footer{
+    background-color: dodgerblue;
+}
+
+body > footer > p{
+    padding: 16px;
+    margin: 0;
+    color: white;
+    text-align: center;
+}
+
+
+body > main > article{
+    margin: auto;
+    width: 70%;
+    position: relative;
+    top: 200px;
+    
+}
+
+#logo{
+    margin: 0;
+    font-family: "Fredoka One", sans-serif;
+    width: 200px;
+    float: left;
+}
+
+#news{
+    margin: 0;
+    width: 40%;
+    position: absolute;
+    top: 80px;
+    right: 400px;
+    top: 100px;
+}
+
+#news img{ 
+    width: 100x;
+    height: 100px;
+    vertical-align: middle;
+    display: inline-block;
+    position: absolute;
+}
+
+#news h3{
+    text-align: right;
+}
+
+#news p{
+    text-align: right;
+    position: relative;
+    text-indent: 150px;
+}
+
+#comments{
+    margin: auto;
+    width: 70%;
+    position: relative;
+    padding-top: 200px;
+}
+
+#textbox{
+    height: 170px;
+    width: 900px;
+    text-align: left;
+}
+
+#submitbox{
+    text-align: justify;
+    display: block;
+    margin: 8px auto;
+}
+
+#users{
+    margin: auto;
+    width: 70%;
+}
+
+#login{
+    margin: auto;
+    width: 85%;
+    position: relative;
+    top: 5px;
+}
+
+#categories{
+    margin: auto;
+    width: 85%;
+    position: relative;
+    top: 15px;
+}
+
+#users img{
+    width: 100px;
+    height: 100px;
+}
+
+.line {
+    border-bottom:1px solid black;
+ }
