@@ -1,6 +1,6 @@
 body{
     margin: 0;
-    font-family: Helvetica, Arial, sans-serif;
+    font-family: Courier, Arial, sans-serif;
 }
 
 body > header{
@@ -49,7 +49,7 @@ body > main > article{
 
 #logo{
     margin: 0;
-    font-family: "Fredoka One", sans-serif;
+    font-family: 'Courier New', sans-serif;
     width: 200px;
     float: left;
 }
@@ -73,12 +73,20 @@ body > main > article{
 
 #news h3{
     text-align: right;
+    font-family: Verdana;
+    color: dodgerblue;
 }
 
 #news p{
     text-align: right;
     position: relative;
-    text-indent: 150px;
+    text-indent: 130px;
+    font-size: 12px;
+    width: 110%;
+}
+
+#news main section{
+    padding-bottom: 25px;
 }
 
 #comments{
@@ -86,6 +94,10 @@ body > main > article{
     width: 70%;
     position: relative;
     padding-top: 200px;
+}
+
+#comments > h2{
+    color: dodgerblue;
 }
 
 #textbox{
@@ -119,6 +131,12 @@ body > main > article{
     top: 15px;
 }
 
+#categories > nav > ul > li > a{
+    text-decoration: none;
+    font-size: 110%;
+}
+
+
 #users img{
     width: 100px;
     height: 100px;
@@ -127,3 +145,8 @@ body > main > article{
 .line {
     border-bottom:1px solid black;
  }
+
+.comments{
+    width: 100%;
+    height: 250px;
+}
